@@ -1,0 +1,25 @@
+{
+  "name": "jest-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "format": "prettier --write *.md *.js '{src,__mocks__}/**/*.js'"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "prettier": "^1.17.0"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
